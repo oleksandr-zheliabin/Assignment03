@@ -3,9 +3,33 @@
 
 let number = parseInt(prompt('Please, enter number to begin countdown:'))
 
-for (number; number >= 0; number--) {
+// for loop
+
+/* for (number; number >= 0; number--) {
+
+     console.log(number)
+
+ }
+ console.log('Countdown completed!') */
+
+// while loop
+
+/* while (number >= 0) {
+
+     console.log(number)
+     number--
+
+ }
+
+ console.log('Countdown completed!') */
+
+// do-while loop
+
+do {
 
     console.log(number)
+    number--
+    
+} while (number >= 0)
 
-}
 console.log('Countdown completed!')
